@@ -6,11 +6,11 @@
   "author": {
     "name": "Atanas Stoyanov",
     "email": "atanasster@gmail.com",
-    "url": "https://github.com/ccontrols"
+    "url": "https://github.com/atanasster"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ccontrols/structured-types.git"
+    "url": "https://github.com/atanasster/structured-types.git"
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",

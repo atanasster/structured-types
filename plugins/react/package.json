@@ -24,13 +24,13 @@
     "clean": "rimraf dist coverage node_modules tsconfig.tsbuildinfo",
     "test": "yarn jest"
   },
-  "homepage": "https://github.com/ccontrols/structured-types",
+  "homepage": "https://github.com/atanasster/structured-types",
   "bugs": {
-    "url": "https://github.com/ccontrols/structured-types/issues"
+    "url": "https://github.com/atanasster/structured-types/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ccontrols/structured-types.git",
+    "url": "https://github.com/atanasster/structured-types.git",
     "directory": "plugins/react"
   },
   "license": "MIT",
@@ -57,7 +57,7 @@
   "author": {
     "name": "Atanas Stoyanov",
     "email": "atanasster@gmail.com",
-    "url": "https://github.com/ccontrols"
+    "url": "https://github.com/atanasster"
   },
   "gitHead": "6b63180832adf499bd1ec0808161c3bfc7ab6c1b"
 }

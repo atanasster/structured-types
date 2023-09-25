@@ -2,7 +2,7 @@
 
 A TypeScript playground plugin which shows instant documentation for exported symbols in typescript, jsdoc and react files.
 
-![./instant-docs.jpg](https://github.com/ccontrols/structured-types/raw/master/packages/instant-documentation-plugin/instant-docs.jpg)
+![./instant-docs.jpg](https://github.com/atanasster/structured-types/raw/master/packages/instant-documentation-plugin/instant-docs.jpg)
 
 ## Running this plugin
 
@@ -19,7 +19,7 @@ or
 Then it will show up as a tab in the sidebar.
 
 ```sh
-git clone https://github.com/ccontrols/structured-types
+git clone https://github.com/atanasster/structured-types
 yarn install
 cd packages/instant-documentation-plugin
 yarn start
@@ -66,4 +66,4 @@ MyComponent.defaultProps = {
 
 ## VScode plugin
 
-You can also check the VSCode [instant documentation](https://github.com/ccontrols/instant-documentation-vscode) plugin. It can document types across multiple files, and also jump to the definition of a property.
+You can also check the VSCode [instant documentation](https://github.com/atanasster/instant-documentation-vscode) plugin. It can document types across multiple files, and also jump to the definition of a property.

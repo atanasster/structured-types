@@ -23,13 +23,13 @@
     "clean": "rimraf dist coverage node_modules tsconfig.tsbuildinfo",
     "test": "yarn jest"
   },
-  "homepage": "https://github.com/ccontrols/component-controls",
+  "homepage": "https://github.com/atanasster/component-controls",
   "bugs": {
-    "url": "https://github.com/ccontrols/component-controls/issues"
+    "url": "https://github.com/atanasster/component-controls/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ccontrols/component-controls.git",
+    "url": "https://github.com/atanasster/component-controls.git",
     "directory": "misc/typescript-config"
   },
   "license": "MIT",
@@ -51,7 +51,7 @@
   "author": {
     "name": "Atanas Stoyanov",
     "email": "atanasster@gmail.com",
-    "url": "https://github.com/ccontrols"
+    "url": "https://github.com/atanasster"
   },
   "jest": {
     "preset": "ts-jest",

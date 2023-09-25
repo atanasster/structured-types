@@ -2,7 +2,7 @@
 
 A TypeScript playground plugin which shows the type information for the current file.
 
-![./react-types.jpg](https://github.com/ccontrols/structured-types/raw/master/packages/ts-playground-plugin/react-types.jpg)
+![./react-types.jpg](https://github.com/atanasster/structured-types/raw/master/packages/ts-playground-plugin/react-types.jpg)
 
 ## Running this plugin
 
@@ -19,7 +19,7 @@ or
 Then it will show up as a tab in the sidebar.
 
 ```sh
-git clone https://github.com/ccontrols/structured-types
+git clone https://github.com/atanasster/structured-types
 yarn install
 cd packages/instant-documentation-plugin
 yarn start

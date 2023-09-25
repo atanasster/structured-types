@@ -23,16 +23,16 @@
     "test": "yarn jest",
     "clean": "rimraf dist coverage node_modules tsconfig.tsbuildinfo"
   },
-  "homepage": "https://github.com/ccontrols/structured-types",
+  "homepage": "https://github.com/atanasster/structured-types",
   "bugs": {
-    "url": "https://github.com/ccontrols/structured-types/issues"
+    "url": "https://github.com/atanasster/structured-types/issues"
   },
   "bin": {
     "api-readme": "./bin/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ccontrols/structured-types.git",
+    "url": "https://github.com/atanasster/structured-types.git",
     "directory": "packages/api-readme"
   },
   "license": "MIT",

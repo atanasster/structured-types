@@ -1,41 +1,41 @@
 # Table of contents
 
--   [Overview](#overview)
--   [Installation](#installation)
--   [Usage](#usage)
--   [Configuration](#configuration)
-    -   [Configuration examples](#configuration-examples)
-    -   [Sections](#sections)
-        -   [1. List configuration](#1-list-configuration)
-        -   [2. Object configuration](#2-object-configuration)
-    -   [Columns](#columns)
-        -   [1. List configuration](#1-list-configuration-1)
-        -   [2. Object configuration](#2-object-configuration-1)
-    -   [Multiple elements](#multiple-elements)
-        -   [Exact Match](#exact-match)
-        -   [File Name Match](#file-name-match)
-        -   [Match nested sub-folders](#match-nested-sub-folders)
-        -   [Match single folder](#match-single-folder)
--   [API](#api)
-    -   [NodeKind](#nodekind)
-    -   [propsToDocumentation](#propstodocumentation)
-    -   [DocumentationNode](#documentationnode)
-    -   [DocumentationNodeWithChildren](#documentationnodewithchildren)
-    -   [DocumentationNodeWithValue](#documentationnodewithvalue)
-    -   [apiDocsConfig](#apidocsconfig)
-    -   [TableNode](#tablenode)
-    -   [TableRowNode](#tablerownode)
-    -   [TableCellNode](#tablecellnode)
-    -   [getRepoPath](#getrepopath)
-    -   [HeadingNode](#headingnode)
-    -   [ParagraphNode](#paragraphnode)
-    -   [TextNode](#textnode)
-    -   [BoldNode](#boldnode)
-    -   [EmphasisNode](#emphasisnode)
-    -   [LinkNode](#linknode)
-    -   [CodeNode](#codenode)
-    -   [InlineCodeNode](#inlinecodenode)
-    -   [DocumentationOptions](#documentationoptions)
+- [Overview](#overview)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+  - [Configuration examples](#configuration-examples)
+  - [Sections](#sections)
+    - [1. List configuration](#1-list-configuration)
+    - [2. Object configuration](#2-object-configuration)
+  - [Columns](#columns)
+    - [1. List configuration](#1-list-configuration-1)
+    - [2. Object configuration](#2-object-configuration-1)
+  - [Multiple elements](#multiple-elements)
+    - [Exact Match](#exact-match)
+    - [File Name Match](#file-name-match)
+    - [Match nested sub-folders](#match-nested-sub-folders)
+    - [Match single folder](#match-single-folder)
+- [API](#api)
+  - [NodeKind](#nodekind)
+  - [propsToDocumentation](#propstodocumentation)
+  - [DocumentationNode](#documentationnode)
+  - [DocumentationNodeWithChildren](#documentationnodewithchildren)
+  - [DocumentationNodeWithValue](#documentationnodewithvalue)
+  - [apiDocsConfig](#apidocsconfig)
+  - [TableNode](#tablenode)
+  - [TableRowNode](#tablerownode)
+  - [TableCellNode](#tablecellnode)
+  - [getRepoPath](#getrepopath)
+  - [HeadingNode](#headingnode)
+  - [ParagraphNode](#paragraphnode)
+  - [TextNode](#textnode)
+  - [BoldNode](#boldnode)
+  - [EmphasisNode](#emphasisnode)
+  - [LinkNode](#linknode)
+  - [CodeNode](#codenode)
+  - [InlineCodeNode](#inlinecodenode)
+  - [DocumentationOptions](#documentationoptions)
 
 # Overview
 
@@ -84,10 +84,10 @@ You can configure api-docs by passing a configuration object or with an [externa
 
 api-docs uses [cosmiconfig](https://github.com/davidtheclark/cosmiconfig) for external configurations in a file. The configuration is loaded by precedence:
 
--   a `api-docs` key in your package.json file
--   a `.api-docsrc` file for JSON or YAML configuration
--   a `.api-docsrc.json`, `.api-docsrc.yaml`, `.api-docsrc.yml` file for JSON or YAML configuration
--   a `.api-docsrc.js`, `.api-docsrc.cjs`, `api-docs.config.js` or `api-docs.config.cjs` javascript file that exports a configuration object using `module.exports`.
+- a `api-docs` key in your package.json file
+- a `.api-docsrc` file for JSON or YAML configuration
+- a `.api-docsrc.json`, `.api-docsrc.yaml`, `.api-docsrc.yml` file for JSON or YAML configuration
+- a `.api-docsrc.js`, `.api-docsrc.cjs`, `api-docs.config.js` or `api-docs.config.cjs` javascript file that exports a configuration object using `module.exports`.
 
 ## Configuration examples
 
@@ -120,7 +120,7 @@ YAML:
 
 You can show/hide or provide a custom configuration for the documentation sections.
 
-![sections](https://github.com/ccontrols/structured-types/raw/master/packages/api-docs/sections.jpg)
+![sections](https://github.com/atanasster/structured-types/raw/master/packages/api-docs/sections.jpg)
 
 ### 1. List configuration
 
@@ -402,7 +402,7 @@ The following element key will match any files in the `src/components` folder
 
 Documentation node kinds
 
-_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/ccontrols/structured-types/tree/master/packages/api-docs/src/types.ts#L14)_
+_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/atanasster/structured-types/tree/master/packages/api-docs/src/types.ts#L14)_
 
 **properties**
 
@@ -426,15 +426,15 @@ _defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://
 
 **`async function`**
 
-_defined in [@structured-types/api-docs/packages/api-docs/src/props-to-nodes.ts](https://github.com/ccontrols/structured-types/tree/master/packages/api-docs/src/props-to-nodes.ts#L49)_
+_defined in [@structured-types/api-docs/packages/api-docs/src/props-to-nodes.ts](https://github.com/atanasster/structured-types/tree/master/packages/api-docs/src/props-to-nodes.ts#L49)_
 
 **parameters**
 
-| Name       | Type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Description                                     |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------- |
-| `props*`   | <details><summary>`PropTypes`</summary><blockquote>\[`string`]: <details><summary>`interface`</summary><blockquote>`kind`: `PropKind`.`String`, `PropKind`.`Number`, `PropKind`.`Boolean`, `PropKind`.`Union`, `PropKind`.`Enum`, `PropKind`.`Tuple`, `PropKind`.`Rest`, `PropKind`.`Undefined`, `PropKind`.`Unknown`, `PropKind`.`Null`, `PropKind`.`Function`, `PropKind`.`Void`, `PropKind`.`Class`, `PropKind`.`Interface`, `PropKind`.`Type`, `PropKind`.`Array`, `PropKind`.`Any`, `PropKind`.`Index`, `PropKind`.`Constructor`, `PropKind`.`Getter`, `PropKind`.`Setter`, `PropKind`.`BigInt`, `PropKind`.`Component`, `PropKind`.`Object`, `PropKind`.`Namespace`, `PropKind`.`RegEx`<br />`name`: `string`<br />`alias`: `string`<br /><details><summary>`parent`</summary><blockquote>`name`\*: `string`<br />`loc`: SourceLocation</blockquote></details><details><summary>`loc`</summary><blockquote>`filePath`: `string`<br />`loc`: SourcePositions</blockquote></details>`optional`: `boolean`<br />`readonly`: `boolean`<br />`abstract`: `boolean`<br />`async`: `boolean`<br />`visibility`: `"private"` \| `"protected"` \| `"public"`<br />`static`: `boolean`<br />`type`: `string`<br />`extension`: `string`<br />`description`: `string`<br />`fires`: `string`\[]<br />`see`: `string`\[]<br />`examples`: `JSDocExample`\[]<br />`tags`: `JSDocPropTag`\[]<br />`summary`: `string`<br />`deprecated`: `string` \| `true`<br />`ignore`: `boolean`<br />`usage`: `type`\[]</blockquote></details><br />`__helpers`: `Record`&lt;`string`, `PropType`><br />`__diagnostics`: `PropDiagnostic`\[]</blockquote></details> | properties parsed from  `structured-types/api`  |
-| `options*` | [`DocumentationOptions`](#documentationoptions)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | page generation options                         |
-| `returns`  | `Promise`&lt;[`DocumentationNode`](#documentationnode)\[]>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                                                 |
+| Name       | Type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Description                                   |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------- |
+| `props*`   | <details><summary>`PropTypes`</summary><blockquote>\[`string`]: <details><summary>`interface`</summary><blockquote>`kind`: `PropKind`.`String`, `PropKind`.`Number`, `PropKind`.`Boolean`, `PropKind`.`Union`, `PropKind`.`Enum`, `PropKind`.`Tuple`, `PropKind`.`Rest`, `PropKind`.`Undefined`, `PropKind`.`Unknown`, `PropKind`.`Null`, `PropKind`.`Function`, `PropKind`.`Void`, `PropKind`.`Class`, `PropKind`.`Interface`, `PropKind`.`Type`, `PropKind`.`Array`, `PropKind`.`Any`, `PropKind`.`Index`, `PropKind`.`Constructor`, `PropKind`.`Getter`, `PropKind`.`Setter`, `PropKind`.`BigInt`, `PropKind`.`Component`, `PropKind`.`Object`, `PropKind`.`Namespace`, `PropKind`.`RegEx`<br />`name`: `string`<br />`alias`: `string`<br /><details><summary>`parent`</summary><blockquote>`name`\*: `string`<br />`loc`: SourceLocation</blockquote></details><details><summary>`loc`</summary><blockquote>`filePath`: `string`<br />`loc`: SourcePositions</blockquote></details>`optional`: `boolean`<br />`readonly`: `boolean`<br />`abstract`: `boolean`<br />`async`: `boolean`<br />`visibility`: `"private"` \| `"protected"` \| `"public"`<br />`static`: `boolean`<br />`type`: `string`<br />`extension`: `string`<br />`description`: `string`<br />`fires`: `string`\[]<br />`see`: `string`\[]<br />`examples`: `JSDocExample`\[]<br />`tags`: `JSDocPropTag`\[]<br />`summary`: `string`<br />`deprecated`: `string` \| `true`<br />`ignore`: `boolean`<br />`usage`: `type`\[]</blockquote></details><br />`__helpers`: `Record`&lt;`string`, `PropType`><br />`__diagnostics`: `PropDiagnostic`\[]</blockquote></details> | properties parsed from `structured-types/api` |
+| `options*` | [`DocumentationOptions`](#documentationoptions)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | page generation options                       |
+| `returns`  | `Promise`&lt;[`DocumentationNode`](#documentationnode)\[]>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                                               |
 
 ## DocumentationNode
 
@@ -442,7 +442,7 @@ _defined in [@structured-types/api-docs/packages/api-docs/src/props-to-nodes.ts]
 
 Base documentation node
 
-_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/ccontrols/structured-types/tree/master/packages/api-docs/src/types.ts#L33)_
+_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/atanasster/structured-types/tree/master/packages/api-docs/src/types.ts#L33)_
 
 **properties**
 
@@ -456,7 +456,7 @@ _defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://
 
 Documentation node with children
 
-_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/ccontrols/structured-types/tree/master/packages/api-docs/src/types.ts#L40)_
+_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/atanasster/structured-types/tree/master/packages/api-docs/src/types.ts#L40)_
 
 **extends**
 
@@ -475,7 +475,7 @@ _defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://
 
 Documentation node with a value
 
-_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/ccontrols/structured-types/tree/master/packages/api-docs/src/types.ts#L67)_
+_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/atanasster/structured-types/tree/master/packages/api-docs/src/types.ts#L67)_
 
 **extends**
 
@@ -494,7 +494,7 @@ _defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://
 
 Read the api-docs configuration file
 
-_defined in [@structured-types/api-docs/packages/api-docs/src/index.ts](https://github.com/ccontrols/structured-types/tree/master/packages/api-docs/src/index.ts#L48)_
+_defined in [@structured-types/api-docs/packages/api-docs/src/index.ts](https://github.com/atanasster/structured-types/tree/master/packages/api-docs/src/index.ts#L48)_
 
 **parameters**
 
@@ -511,7 +511,7 @@ _defined in [@structured-types/api-docs/packages/api-docs/src/index.ts](https://
 
 Table node, where the first row is a table header row
 
-_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/ccontrols/structured-types/tree/master/packages/api-docs/src/types.ts#L87)_
+_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/atanasster/structured-types/tree/master/packages/api-docs/src/types.ts#L87)_
 
 **extends**
 
@@ -530,7 +530,7 @@ _defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://
 
 Table row node - can be a header or data row
 
-_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/ccontrols/structured-types/tree/master/packages/api-docs/src/types.ts#L103)_
+_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/atanasster/structured-types/tree/master/packages/api-docs/src/types.ts#L103)_
 
 **extends**
 
@@ -549,7 +549,7 @@ _defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://
 
 Table cell node, the content is a list of child nodes
 
-_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/ccontrols/structured-types/tree/master/packages/api-docs/src/types.ts#L120)_
+_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/atanasster/structured-types/tree/master/packages/api-docs/src/types.ts#L120)_
 
 **extends**
 
@@ -566,7 +566,7 @@ _defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://
 
 **`async function`**
 
-_defined in [@structured-types/api-docs/packages/api-docs/src/package-info/package-info.ts](https://github.com/ccontrols/structured-types/tree/master/packages/api-docs/src/package-info/package-info.ts#L44)_
+_defined in [@structured-types/api-docs/packages/api-docs/src/package-info/package-info.ts](https://github.com/atanasster/structured-types/tree/master/packages/api-docs/src/package-info/package-info.ts#L44)_
 
 **parameters**
 
@@ -582,7 +582,7 @@ _defined in [@structured-types/api-docs/packages/api-docs/src/package-info/packa
 
 Heading node with a depth parameter, the content is a list of child nodes
 
-_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/ccontrols/structured-types/tree/master/packages/api-docs/src/types.ts#L136)_
+_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/atanasster/structured-types/tree/master/packages/api-docs/src/types.ts#L136)_
 
 **extends**
 
@@ -602,7 +602,7 @@ _defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://
 
 Paragraph node, the content is a list of child nodes
 
-_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/ccontrols/structured-types/tree/master/packages/api-docs/src/types.ts#L152)_
+_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/atanasster/structured-types/tree/master/packages/api-docs/src/types.ts#L152)_
 
 **extends**
 
@@ -621,7 +621,7 @@ _defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://
 
 Text node, the content string is in the value field
 
-_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/ccontrols/structured-types/tree/master/packages/api-docs/src/types.ts#L168)_
+_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/atanasster/structured-types/tree/master/packages/api-docs/src/types.ts#L168)_
 
 **extends**
 
@@ -640,7 +640,7 @@ _defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://
 
 Bold/Strong node, the content is a list of child nodes
 
-_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/ccontrols/structured-types/tree/master/packages/api-docs/src/types.ts#L182)_
+_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/atanasster/structured-types/tree/master/packages/api-docs/src/types.ts#L182)_
 
 **extends**
 
@@ -659,7 +659,7 @@ _defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://
 
 Emphasis/Italic node, the content is a list of child nodes
 
-_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/ccontrols/structured-types/tree/master/packages/api-docs/src/types.ts#L196)_
+_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/atanasster/structured-types/tree/master/packages/api-docs/src/types.ts#L196)_
 
 **extends**
 
@@ -678,7 +678,7 @@ _defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://
 
 Link node with url property, the content is a list of child nodes
 
-_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/ccontrols/structured-types/tree/master/packages/api-docs/src/types.ts#L213)_
+_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/atanasster/structured-types/tree/master/packages/api-docs/src/types.ts#L213)_
 
 **extends**
 
@@ -699,7 +699,7 @@ _defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://
 
 Code node, the content string is in the value field
 
-_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/ccontrols/structured-types/tree/master/packages/api-docs/src/types.ts#L229)_
+_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/atanasster/structured-types/tree/master/packages/api-docs/src/types.ts#L229)_
 
 **extends**
 
@@ -718,7 +718,7 @@ _defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://
 
 Inline code node, the content string is in the value field
 
-_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/ccontrols/structured-types/tree/master/packages/api-docs/src/types.ts#L243)_
+_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/atanasster/structured-types/tree/master/packages/api-docs/src/types.ts#L243)_
 
 **extends**
 
@@ -737,18 +737,18 @@ _defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://
 
 Document page generation options
 
-_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/ccontrols/structured-types/tree/master/packages/api-docs/src/types.ts#L364)_
+_defined in [@structured-types/api-docs/packages/api-docs/src/types.ts](https://github.com/atanasster/structured-types/tree/master/packages/api-docs/src/types.ts#L364)_
 
 **properties**
 
-| Name            | Type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Description                                                                                                                                                                                                           |
-| --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `collapsed`     | `string`\[]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | List of type names, that should not be expanded. For example, some internal React objects can be kept just as a string and will not be detailed in the documentation, instead of listing their internal properties.   |
-| `extensions`    | `string`\[]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | List of plugins (or extensions). For example, for a react library, you can specify to include only react components, but not any additional types or utilities.                                                       |
-| `visible`       | `string`\[]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | List of type names, that should be "visible". This will limit which of the parsed props to be documented.                                                                                                             |
-| `columns`       | `ColumnName`\[] \| `Partial`&lt;`Record`&lt;`ColumnName`, `ColumnConfig`>>                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Sections can be configured as an array of the visible sections, or an object with keys the section name, and values a configuration object                                                                            |
-| `sections`      | `SectionName`\[] \| `Partial`&lt;`Record`&lt;`SectionName`, `SectionConfig`>>                                                                                                                                                                                                                                                                                                                                                                                                                                                | Sections can be configured as an array of the visible sections, or an object with keys the section name, and values a configuration object                                                                            |
-| `skipInherited` | `boolean`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Whether to skip properties that are "inherited", or "composed". For example,  `type OwnProps = { x: number } & React.LineProps`  will only output the  `x`  property and skip the inherited React library properties. |
-| `fs`            | <details><summary>`STFS`</summary><blockquote>`fileExists`\*: **function** (<br />`filePath`\*: `string`<br />) => `Promise`&lt;`boolean`><br />`readDirectory`\*: **function** (<br />`path`\*: `string`<br />) => `Promise`&lt;`string`\[]><br />`isDirectory`\*: **function** (<br />`path`\*: `string`<br />) => `Promise`&lt;`boolean`><br />`readFile`\*: **function** (<br />`filePath`\*: `string`<br />) => `Promise`&lt;(`string`, `null`)><br />`cwd`\*: **function** (<br />) => `string`</blockquote></details> | virtual file system for use in browser                                                                                                                                                                                |
+| Name            | Type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Description                                                                                                                                                                                                         |
+| --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `collapsed`     | `string`\[]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | List of type names, that should not be expanded. For example, some internal React objects can be kept just as a string and will not be detailed in the documentation, instead of listing their internal properties. |
+| `extensions`    | `string`\[]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | List of plugins (or extensions). For example, for a react library, you can specify to include only react components, but not any additional types or utilities.                                                     |
+| `visible`       | `string`\[]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | List of type names, that should be "visible". This will limit which of the parsed props to be documented.                                                                                                           |
+| `columns`       | `ColumnName`\[] \| `Partial`&lt;`Record`&lt;`ColumnName`, `ColumnConfig`>>                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Sections can be configured as an array of the visible sections, or an object with keys the section name, and values a configuration object                                                                          |
+| `sections`      | `SectionName`\[] \| `Partial`&lt;`Record`&lt;`SectionName`, `SectionConfig`>>                                                                                                                                                                                                                                                                                                                                                                                                                                                | Sections can be configured as an array of the visible sections, or an object with keys the section name, and values a configuration object                                                                          |
+| `skipInherited` | `boolean`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Whether to skip properties that are "inherited", or "composed". For example, `type OwnProps = { x: number } & React.LineProps` will only output the `x` property and skip the inherited React library properties.   |
+| `fs`            | <details><summary>`STFS`</summary><blockquote>`fileExists`\*: **function** (<br />`filePath`\*: `string`<br />) => `Promise`&lt;`boolean`><br />`readDirectory`\*: **function** (<br />`path`\*: `string`<br />) => `Promise`&lt;`string`\[]><br />`isDirectory`\*: **function** (<br />`path`\*: `string`<br />) => `Promise`&lt;`boolean`><br />`readFile`\*: **function** (<br />`filePath`\*: `string`<br />) => `Promise`&lt;(`string`, `null`)><br />`cwd`\*: **function** (<br />) => `string`</blockquote></details> | virtual file system for use in browser                                                                                                                                                                              |
 
 <!-- END-API-README -->

@@ -43,7 +43,7 @@ export const InfoContainer: FC = () => {
     const items: Record<ParserNames, Omit<APIItem, 'label'>> = {
       'structured-types': {
         selected: true,
-        link: 'https://github.com/ccontrols/structured-types/tree/master/packages/api',
+        link: 'https://github.com/atanasster/structured-types/tree/master/packages/api',
         Panel: DataViewer,
         jsonTree: {
           // eslint-disable-next-line react/display-name

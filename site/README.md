@@ -1,18 +1,18 @@
 # Table of contents
 
--   [Overview](#overview)
--   [Components](#components)
-    -   [Playground](#playground)
-    -   [Editor](#editor)
--   [Panels](#panels)
-    -   [PanelContainer](#panelcontainer)
-    -   [ConfigPanel](#configpanel)
-    -   [ExamplesPanel](#examplespanel)
-    -   [ParseConfigPanel](#parseconfigpanel)
--   [Viewers](#viewers)
-    -   [LoadingIndicator](#loadingindicator)
-    -   [JSONViewer](#jsonviewer)
-    -   [DataViewer](#dataviewer)
+- [Overview](#overview)
+- [Components](#components)
+  - [Playground](#playground)
+  - [Editor](#editor)
+- [Panels](#panels)
+  - [PanelContainer](#panelcontainer)
+  - [ConfigPanel](#configpanel)
+  - [ExamplesPanel](#examplespanel)
+  - [ParseConfigPanel](#parseconfigpanel)
+- [Viewers](#viewers)
+  - [LoadingIndicator](#loadingindicator)
+  - [JSONViewer](#jsonviewer)
+  - [DataViewer](#dataviewer)
 
 # Overview
 
@@ -30,7 +30,7 @@ Playground site for structured-types
 
 Top-level component that displays the editor, and the tabbed interface
 
-_defined in [structured-types-site/site/src/components/Playground.tsx](https://github.com/ccontrols/structured-types/tree/master/site/src/components/Playground.tsx#L21)_
+_defined in [structured-types-site/site/src/components/Playground.tsx](https://github.com/atanasster/structured-types/tree/master/site/src/components/Playground.tsx#L21)_
 
 ## Editor
 
@@ -38,7 +38,7 @@ _defined in [structured-types-site/site/src/components/Playground.tsx](https://g
 
 Monaco editor component. Uses CodeContext for data repository.
 
-_defined in [structured-types-site/site/src/components/Editor.tsx](https://github.com/ccontrols/structured-types/tree/master/site/src/components/Editor.tsx#L11)_
+_defined in [structured-types-site/site/src/components/Editor.tsx](https://github.com/atanasster/structured-types/tree/master/site/src/components/Editor.tsx#L11)_
 
 <!-- END-API-README -->
 
@@ -52,7 +52,7 @@ _defined in [structured-types-site/site/src/components/Editor.tsx](https://githu
 
 **`react component`**
 
-_defined in [structured-types-site/site/src/components/panels/PanelContainer.tsx](https://github.com/ccontrols/structured-types/tree/master/site/src/components/panels/PanelContainer.tsx#L8)_
+_defined in [structured-types-site/site/src/components/panels/PanelContainer.tsx](https://github.com/atanasster/structured-types/tree/master/site/src/components/panels/PanelContainer.tsx#L8)_
 
 **properties**
 
@@ -64,7 +64,7 @@ _defined in [structured-types-site/site/src/components/panels/PanelContainer.tsx
 
 **`react component`**
 
-_defined in [structured-types-site/site/src/components/panels/ConfigPanel.tsx](https://github.com/ccontrols/structured-types/tree/master/site/src/components/panels/ConfigPanel.tsx#L13)_
+_defined in [structured-types-site/site/src/components/panels/ConfigPanel.tsx](https://github.com/atanasster/structured-types/tree/master/site/src/components/panels/ConfigPanel.tsx#L13)_
 
 **properties**
 
@@ -76,7 +76,7 @@ _defined in [structured-types-site/site/src/components/panels/ConfigPanel.tsx](h
 
 **`react component`**
 
-_defined in [structured-types-site/site/src/components/panels/ExamplesPanel.tsx](https://github.com/ccontrols/structured-types/tree/master/site/src/components/panels/ExamplesPanel.tsx#L13)_
+_defined in [structured-types-site/site/src/components/panels/ExamplesPanel.tsx](https://github.com/atanasster/structured-types/tree/master/site/src/components/panels/ExamplesPanel.tsx#L13)_
 
 **properties**
 
@@ -88,7 +88,7 @@ _defined in [structured-types-site/site/src/components/panels/ExamplesPanel.tsx]
 
 **`react component`**
 
-_defined in [structured-types-site/site/src/components/panels/ParseConfigPanel.tsx](https://github.com/ccontrols/structured-types/tree/master/site/src/components/panels/ParseConfigPanel.tsx#L12)_
+_defined in [structured-types-site/site/src/components/panels/ParseConfigPanel.tsx](https://github.com/atanasster/structured-types/tree/master/site/src/components/panels/ParseConfigPanel.tsx#L12)_
 
 **properties**
 
@@ -110,13 +110,13 @@ _defined in [structured-types-site/site/src/components/panels/ParseConfigPanel.t
 
 Display a 'loading..' flex box
 
-_defined in [structured-types-site/site/src/components/viewers/LoadingIndicator.tsx](https://github.com/ccontrols/structured-types/tree/master/site/src/components/viewers/LoadingIndicator.tsx#L7)_
+_defined in [structured-types-site/site/src/components/viewers/LoadingIndicator.tsx](https://github.com/atanasster/structured-types/tree/master/site/src/components/viewers/LoadingIndicator.tsx#L7)_
 
 ## JSONViewer
 
 **`react component`**
 
-_defined in [structured-types-site/site/src/components/viewers/JSONViewer.tsx](https://github.com/ccontrols/structured-types/tree/master/site/src/components/viewers/JSONViewer.tsx#L6)_
+_defined in [structured-types-site/site/src/components/viewers/JSONViewer.tsx](https://github.com/atanasster/structured-types/tree/master/site/src/components/viewers/JSONViewer.tsx#L6)_
 
 **properties**
 
@@ -140,7 +140,7 @@ _defined in [structured-types-site/site/src/components/viewers/JSONViewer.tsx](h
 
 **`react component`**
 
-_defined in [structured-types-site/site/src/components/viewers/DataViewer.tsx](https://github.com/ccontrols/structured-types/tree/master/site/src/components/viewers/DataViewer.tsx#L15)_
+_defined in [structured-types-site/site/src/components/viewers/DataViewer.tsx](https://github.com/atanasster/structured-types/tree/master/site/src/components/viewers/DataViewer.tsx#L15)_
 
 **properties**
 

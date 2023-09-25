@@ -14,13 +14,13 @@
     "build": "next build",
     "server": "next start"
   },
-  "homepage": "https://github.com/ccontrols/structured-types",
+  "homepage": "https://github.com/atanasster/structured-types",
   "bugs": {
-    "url": "https://github.com/ccontrols/structured-types/issues"
+    "url": "https://github.com/atanasster/structured-types/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ccontrols/structured-types.git",
+    "url": "https://github.com/atanasster/structured-types.git",
     "directory": "site"
   },
   "dependencies": {
@@ -60,6 +60,6 @@
   "author": {
     "name": "Atanas Stoyanov",
     "email": "atanasster@gmail.com",
-    "url": "https://github.com/ccontrols"
+    "url": "https://github.com/atanasster"
   }
 }

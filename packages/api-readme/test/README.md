@@ -1,16 +1,16 @@
 # Table of contents
 
--   [API](#api)
-    -   [STRING_CONST](#string_const)
-    -   [Fn](#fn)
-    -   [getDefaultStore](#getdefaultstore)
-    -   [anonParamFn](#anonparamfn)
-    -   [FileType](#filetype)
-    -   [defFileType](#deffiletype)
-    -   [ConfigNoTypeArr](#confignotypearr)
-    -   [MyComponent](#mycomponent)
-    -   [Kind](#kind)
-    -   [IndexedProps](#indexedprops)
+- [API](#api)
+  - [STRING_CONST](#string_const)
+  - [Fn](#fn)
+  - [getDefaultStore](#getdefaultstore)
+  - [anonParamFn](#anonparamfn)
+  - [FileType](#filetype)
+  - [defFileType](#deffiletype)
+  - [ConfigNoTypeArr](#confignotypearr)
+  - [MyComponent](#mycomponent)
+  - [Kind](#kind)
+  - [IndexedProps](#indexedprops)
 
 # API
 
@@ -24,7 +24,7 @@
 
 a string global constant
 
-_defined in [@structured-types/api-readme/packages/api-readme/test/component.tsx](https://github.com/ccontrols/structured-types/tree/master/packages/api-readme/test/component.tsx#L7)_
+_defined in [@structured-types/api-readme/packages/api-readme/test/component.tsx](https://github.com/atanasster/structured-types/tree/master/packages/api-readme/test/component.tsx#L7)_
 
 ## Fn
 
@@ -32,13 +32,13 @@ _defined in [@structured-types/api-readme/packages/api-readme/test/component.tsx
 
 Function without parameters
 
-_defined in [@structured-types/api-readme/packages/api-readme/test/component.tsx](https://github.com/ccontrols/structured-types/tree/master/packages/api-readme/test/component.tsx#L13)_
+_defined in [@structured-types/api-readme/packages/api-readme/test/component.tsx](https://github.com/atanasster/structured-types/tree/master/packages/api-readme/test/component.tsx#L13)_
 
 ## getDefaultStore
 
 **`function`**
 
-_defined in [@structured-types/api-readme/packages/api-readme/test/component.tsx](https://github.com/ccontrols/structured-types/tree/master/packages/api-readme/test/component.tsx#L25)_
+_defined in [@structured-types/api-readme/packages/api-readme/test/component.tsx](https://github.com/atanasster/structured-types/tree/master/packages/api-readme/test/component.tsx#L25)_
 
 **parameters**
 
@@ -52,7 +52,7 @@ _defined in [@structured-types/api-readme/packages/api-readme/test/component.tsx
 
 anonymous parameter
 
-_defined in [@structured-types/api-readme/packages/api-readme/test/component.tsx](https://github.com/ccontrols/structured-types/tree/master/packages/api-readme/test/component.tsx#L30)_
+_defined in [@structured-types/api-readme/packages/api-readme/test/component.tsx](https://github.com/atanasster/structured-types/tree/master/packages/api-readme/test/component.tsx#L30)_
 
 **properties**
 
@@ -66,7 +66,7 @@ _defined in [@structured-types/api-readme/packages/api-readme/test/component.tsx
 
 Exported union type
 
-_defined in [@structured-types/api-readme/packages/api-readme/test/component.tsx](https://github.com/ccontrols/structured-types/tree/master/packages/api-readme/test/component.tsx#L36)_
+_defined in [@structured-types/api-readme/packages/api-readme/test/component.tsx](https://github.com/atanasster/structured-types/tree/master/packages/api-readme/test/component.tsx#L36)_
 
 **values**
 
@@ -78,7 +78,7 @@ _defined in [@structured-types/api-readme/packages/api-readme/test/component.tsx
 
 Exported union type
 
-_defined in [@structured-types/api-readme/packages/api-readme/test/component.tsx](https://github.com/ccontrols/structured-types/tree/master/packages/api-readme/test/component.tsx#L38)_
+_defined in [@structured-types/api-readme/packages/api-readme/test/component.tsx](https://github.com/atanasster/structured-types/tree/master/packages/api-readme/test/component.tsx#L38)_
 
 **values**
 
@@ -88,7 +88,7 @@ _defined in [@structured-types/api-readme/packages/api-readme/test/component.tsx
 
 **`interface`**
 
-_defined in [@structured-types/api-readme/packages/api-readme/test/component.tsx](https://github.com/ccontrols/structured-types/tree/master/packages/api-readme/test/component.tsx#L53)_
+_defined in [@structured-types/api-readme/packages/api-readme/test/component.tsx](https://github.com/atanasster/structured-types/tree/master/packages/api-readme/test/component.tsx#L53)_
 
 **properties**
 
@@ -102,7 +102,7 @@ _defined in [@structured-types/api-readme/packages/api-readme/test/component.tsx
 
 MyComponent special component
 
-_defined in [@structured-types/api-readme/packages/api-readme/test/component.tsx](https://github.com/ccontrols/structured-types/tree/master/packages/api-readme/test/component.tsx#L111)_
+_defined in [@structured-types/api-readme/packages/api-readme/test/component.tsx](https://github.com/atanasster/structured-types/tree/master/packages/api-readme/test/component.tsx#L111)_
 
 **properties**
 
@@ -123,7 +123,7 @@ _defined in [@structured-types/api-readme/packages/api-readme/test/component.tsx
 
 **`enum`**
 
-_defined in [@structured-types/api-readme/packages/api-readme/test/component.tsx](https://github.com/ccontrols/structured-types/tree/master/packages/api-readme/test/component.tsx#L119)_
+_defined in [@structured-types/api-readme/packages/api-readme/test/component.tsx](https://github.com/atanasster/structured-types/tree/master/packages/api-readme/test/component.tsx#L119)_
 
 **properties**
 
@@ -136,7 +136,7 @@ _defined in [@structured-types/api-readme/packages/api-readme/test/component.tsx
 
 **`type`**
 
-_defined in [@structured-types/api-readme/packages/api-readme/test/component.tsx](https://github.com/ccontrols/structured-types/tree/master/packages/api-readme/test/component.tsx#L128)_
+_defined in [@structured-types/api-readme/packages/api-readme/test/component.tsx](https://github.com/atanasster/structured-types/tree/master/packages/api-readme/test/component.tsx#L128)_
 
 **properties**
 

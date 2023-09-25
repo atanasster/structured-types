@@ -1,12 +1,12 @@
 # Table of contents
 
--   [Overview](#overview)
--   [Installation](#installation)
--   [Getting started](#getting-started)
--   [API](#api)
-    -   [TSConfigFS](#tsconfigfs)
-    -   [TSConfigOptions](#tsconfigoptions)
-    -   [getTypescriptConfig](#gettypescriptconfig)
+- [Overview](#overview)
+- [Installation](#installation)
+- [Getting started](#getting-started)
+- [API](#api)
+  - [TSConfigFS](#tsconfigfs)
+  - [TSConfigOptions](#tsconfigoptions)
+  - [getTypescriptConfig](#gettypescriptconfig)
 
 # Overview
 
@@ -39,7 +39,7 @@ $ npm install @structured-types/typescript-config --save-dev
 
 **`type`**
 
-_defined in [@structured-types/typescript-config/misc/typescript-config/src/index.ts](https://github.com/ccontrols/component-controls/tree/master/misc/typescript-config/src/index.ts#L5)_
+_defined in [@structured-types/typescript-config/misc/typescript-config/src/index.ts](https://github.com/atanasster/component-controls/tree/master/misc/typescript-config/src/index.ts#L5)_
 
 **properties**
 
@@ -54,7 +54,7 @@ _defined in [@structured-types/typescript-config/misc/typescript-config/src/inde
 
 Config parsing options
 
-_defined in [@structured-types/typescript-config/misc/typescript-config/src/index.ts](https://github.com/ccontrols/component-controls/tree/master/misc/typescript-config/src/index.ts#L16)_
+_defined in [@structured-types/typescript-config/misc/typescript-config/src/index.ts](https://github.com/atanasster/component-controls/tree/master/misc/typescript-config/src/index.ts#L16)_
 
 **properties**
 
@@ -69,7 +69,7 @@ _defined in [@structured-types/typescript-config/misc/typescript-config/src/inde
 
 Reads any typescript configuration files for a given file, including the extends references
 
-_defined in [@structured-types/typescript-config/misc/typescript-config/src/index.ts](https://github.com/ccontrols/component-controls/tree/master/misc/typescript-config/src/index.ts#L33)_
+_defined in [@structured-types/typescript-config/misc/typescript-config/src/index.ts](https://github.com/atanasster/component-controls/tree/master/misc/typescript-config/src/index.ts#L33)_
 
 **parameters**
 

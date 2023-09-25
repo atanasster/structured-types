@@ -25,7 +25,7 @@ const config: RuntimeConfiguration = {
     right: [
       {
         node: (
-          <Link href="https://github.com/ccontrols/structured-types">
+          <Link href="https://github.com/atanasster/structured-types">
             <Box
               sx={{
                 mr: 1,

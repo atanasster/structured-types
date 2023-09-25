@@ -150,7 +150,7 @@ const jsResults = [
                   '@structured-types/api-docs/packages/api-docs/testfile.tsx',
               },
             ],
-            url: 'https://github.com/ccontrols/structured-types/tree/master/packages/api-docs/testfile.tsx#L10',
+            url: 'https://github.com/atanasster/structured-types/tree/master/packages/api-docs/testfile.tsx#L10',
             loc: {
               filePath: 'testfile.tsx',
               loc: {
@@ -344,7 +344,7 @@ const jsonResult = [
                   '@structured-types/api-docs/packages/api-docs/testfile.tsx',
               },
             ],
-            url: 'https://github.com/ccontrols/structured-types/tree/master/packages/api-docs/testfile.tsx#L10',
+            url: 'https://github.com/atanasster/structured-types/tree/master/packages/api-docs/testfile.tsx#L10',
             loc: {
               filePath: 'testfile.tsx',
               loc: {
